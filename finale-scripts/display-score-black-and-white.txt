@@ -1,0 +1,15 @@
+/**
+ * Author: Filipe Fonseca
+ * Date: 23/07/2017
+ * Version: 1.0.0
+ */
+
+// Script Start
+menu item "Edit/Preferences..."
+click "Display Colors"
+uncheck "Color unlinked items"
+uncheck "Use score colors"
+click "Palettes and Backgrounds"
+click "Solid Color" near "Manuscript Texture"
+click ok
+// Script End

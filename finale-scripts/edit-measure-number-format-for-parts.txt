@@ -1,0 +1,58 @@
+/**
+ * Author: Filipe Fonseca
+ * Date: 01/08/2017
+ * Version: 1.0.0
+ */
+
+//Open Edit measure number regions
+menu item "Edit Measure Number Regions..."
+
+// Change to Parts tab
+press shift tab
+press right arrow
+
+//Allow changes for parts
+uncheck "Use Score Settings"
+
+check "Show measure numbers at start of staff system"
+uncheck "Enclosure"
+check "Hide first measure number in region"
+
+//Open Set font
+press alt "f" //Set font
+type "Garamond" //Font name
+tab
+type "Italic" //Font typeface
+tab
+type "14" //Font size
+uncheck "Fixed size"
+button "OK"
+
+//Open Position
+press alt "p"
+type "0.05" near "H:"
+type "0.15" near "V:"
+button "OK"
+
+check "Show on multimeasure rests"
+check "Show measure ranges on multimeasure rests"
+
+// Open Set font
+press alt "n"
+type "Garamond" //Font name
+tab
+type "Regular" //Font typeface
+tab
+type "16" //Font size
+uncheck "Fixed size"
+button "OK"
+
+//Open Position
+press alt "s"
+dropdown "Center" near "Alignment:"
+dropdown "Center" near "Justification:"
+type "0" near "H:"
+type "-0.6" near "V:"
+button "OK"
+
+button "OK"

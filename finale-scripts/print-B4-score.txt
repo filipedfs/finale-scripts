@@ -1,0 +1,9 @@
+menu item "File/Print..."
+click "Setup..."
+select drop-down menu "JIS B4" near "Tamanho:"
+button OK
+click "Check None"
+shift tab 2
+arrow down
+spacebar
+button OK

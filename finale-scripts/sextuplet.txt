@@ -1,0 +1,15 @@
+/**
+ * Author: Filipe Fonseca
+ * Date: 23/07/2017
+ * Version: 1.0.0
+ * Info: Assign a shortcut for better experience
+ */
+
+// Script Start
+press alt numpad 9
+tab 3
+type "6"
+tab 2
+type "4"
+button ok
+// Script End

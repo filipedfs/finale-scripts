@@ -1,0 +1,10 @@
+// Insert elisions
+search "I" [EngraverFontSet] replace "*", lyrics
+
+
+// Change lyrics font
+search [] replace [Palatino Linotype], lyrics
+
+
+// Insert elisions
+search "*" replace "I" [EngraverFontSet], lyrics

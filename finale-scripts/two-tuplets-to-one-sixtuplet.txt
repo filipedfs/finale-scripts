@@ -1,0 +1,29 @@
+/**
+ * Author: Filipe Fonseca
+ * Date: 23/07/2017
+ * Version: 1.0.0
+ * Info: Assign a shortcut for better experience
+ */
+
+// Script Start
+
+// Make sure 'Check for extra notes' is deselected
+Simple Entry Tool
+menu item "Simple/Simple Entry Options..."
+uncheck "Check for extra notes"
+press OK
+
+// Change tuplets to sextuplet
+press numpad 9
+press right arrow 3
+press numpad 9
+press left arrow 3
+press alt numpad 9
+tab 3
+type "6"
+tab 2
+type "4"
+button ok
+press right arrow 6
+
+// Script End

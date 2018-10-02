@@ -1,0 +1,33 @@
+document options // Open Document Options
+click "Barlines" // Select Barlines Options
+type 0.7 near "Thin Line Thickness:" // Set the line thickness
+click "Grace Notes"
+type 0.7 near "Grace Note Slash Thickness:"
+click "Lines and Curves"
+type 0.7 // Set Enclosures Line Thickness
+tab 3 
+type 0.7 // Set Staff Lines Thickness
+tab
+type 0.7 // Set Ledger Lines Thickness
+click "Lyrics"
+click "Word Extensions..."
+check "Use Smart Word Extensions"
+type 0.7 near "Line Thickness:"
+button "OK"
+click "Repeats"
+type 0.7 near "Thin Line Thickness:"
+click "Repeat Endings..."
+type 0.7 near "Line Thickness:"
+button "OK"
+click "Stems"
+type 0.7 near "Stem Line Thickness:"
+click "Tuplets"
+type 0.7 near "Bracket Thickness:"
+button "OK"
+menu item "Tools/Smart Shape/Slur"
+menu item "SmartShape/Smart Shape Options..."
+press alt+"i"
+type 0.7 
+press alt+"t"
+type 0.7 
+button "OK"

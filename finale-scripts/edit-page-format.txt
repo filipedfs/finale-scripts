@@ -1,0 +1,56 @@
+/**
+ * Author: Filipe Fonseca
+ * Date: 20/03/2018
+ * Version: 0.0.1
+ */
+ 
+// Open page format for parts
+menu item "Document/Page Format/Score..." // Open Page Format for Score
+
+// Prepare options
+uncheck "Facing pages" // Facing pages
+uncheck "First Staff System margins:" // Facing pages
+
+type "841,5" near "Width:" // Page Width (B4: 730 | A4: 595,25)
+type "1190,25" near "Height:" // Page Height (B4: 1031,75 | A4: 842)
+type "100" near "Scale Page To:" // 
+type "4,7m" near "Staff Height:"
+type "100" near "And Scale System:"
+tab
+type "45" // Top Staff System Margins
+tab
+type "34" // Left Staff System Margins
+tab
+type "0" // Right Staff System Margins
+tab
+type "45" // Bottom Staff System Margins
+tab
+type "0" // Distance Between Systems
+check "First Staff System margins:" // Facing pages
+tab
+type "45" // Top First Staff System margins
+tab
+type "50" // Left First Staff System margins
+tab
+type "40" // Distance From Top
+tab
+type "2c" // Left page top margin
+tab
+type "2c" // Left page left margin
+tab
+type "2c" // Left page right  margin
+tab
+type "2c" // Left page bottom margin
+check "Facing pages" // Facing pages
+tab
+type "2c" // Right page top margin
+tab
+type "2c" // Right page left margin
+tab
+type "2c" // Right page right margin
+tab
+type "2c" // Right page bottom margin
+button "OK"
+Page Layout Tool
+menu item "Page Layout/Redefine Pages/All Pages of Current Part/Score"
+button "OK"

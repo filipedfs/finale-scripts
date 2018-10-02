@@ -1,0 +1,11 @@
+/**
+ * Author: Filipe Fonseca
+ * Date: 23/07/2017
+ * Version: 1.0.0
+ */
+
+// Script Start
+
+search [] replace [Palatino Linotype] 14, staff names
+
+// Script End

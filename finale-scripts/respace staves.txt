@@ -1,0 +1,106 @@
+/**
+ * Author: Filipe Fonseca
+ * Date: 20/03/2018
+ * Version: 0.0.1
+ */
+ 
+Staff Tool
+select all
+menu item "Staff/Respace Staves..."
+tab 8
+type 72
+button "OK"
+
+select stave 5
+menu item "Staff/Respace Staves..."
+tab 8
+type 90
+button "OK"
+
+select stave 10
+menu item "Staff/Respace Staves..."
+tab 8
+type 90
+button "OK"
+
+select stave 11
+menu item "Staff/Respace Staves..."
+tab 8
+type 90
+button "OK"
+
+select stave 13
+menu item "Staff/Respace Staves..."
+tab 8
+type 90
+button "OK"
+
+select stave 15
+menu item "Staff/Respace Staves..."
+tab 8
+type 90
+button "OK"
+
+select stave 20
+menu item "Staff/Respace Staves..."
+tab 8
+type 90
+button "OK"
+
+// FIRST PAGE
+select all
+select measure 1
+Staff Tool
+menu item "Staff/Respace Staves..."
+tab 8
+type 70
+button "OK"
+
+select stave 5
+select measure 1
+Staff Tool
+menu item "Staff/Respace Staves..."
+tab 8
+type 86
+button "OK"
+
+select stave 10
+select measure 1
+Staff Tool
+menu item "Staff/Respace Staves..."
+tab 8
+type 86
+button "OK"
+
+select stave 11
+select measure 1
+Staff Tool
+menu item "Staff/Respace Staves..."
+tab 8
+type 86
+button "OK"
+
+select stave 13
+select measure 1
+Staff Tool
+menu item "Staff/Respace Staves..."
+tab 8
+type 86
+button "OK"
+
+select stave 15
+select measure 1
+Staff Tool
+menu item "Staff/Respace Staves..."
+tab 8
+type 86
+button "OK"
+
+select stave 20
+select measure 1
+Staff Tool
+menu item "Staff/Respace Staves..."
+tab 8
+type 86
+button "OK"
+

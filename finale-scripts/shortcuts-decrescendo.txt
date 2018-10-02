@@ -1,0 +1,2 @@
+// CTRL+ALT+D
+menu item "Tools/Smart Shape/Decrescendo"

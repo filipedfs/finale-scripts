@@ -1,0 +1,13 @@
+/**
+ * Author: Filipe Fonseca
+ * Date: 23/07/2017
+ * Version: 1.0.0
+ */
+
+// Script Start
+process all open
+
+print
+
+close
+// Script End

@@ -1,0 +1,59 @@
+/**
+ * Author: Filipe Fonseca
+ * Date: 21/03/2018
+ * Version: 0.0.1
+ */
+ 
+// Open page format for parts
+menu item "Document/Page Format/Parts..." 	// Open Page Format for Score
+
+// Prepare options
+uncheck "Facing pages" // Facing pages
+uncheck "First Staff System margins:" // Facing pages
+
+type "595,25" near "Width:"					// Page Width (B4: 730 |)
+type "842" near "Height:"				// Page Height (B4: 1031,75 |)
+type "100" near "Scale Page To:"			// 
+type "7m" near "Staff Height:"
+type "100" near "And Scale System:"
+tab
+type "35" // Top Staff System Margins
+tab
+type "0" // Left Staff System Margins
+tab
+type "0" // Right Staff System Margins
+tab
+type "26" // Bottom Staff System Margins
+tab
+type "5" // Distance Between Systems
+check "First Staff System margins:" // Facing pages
+tab
+type "95" // Top First Staff System margins
+tab
+type "30" // Left First Staff System margins
+tab
+type "0" // Distance From Top
+tab
+type "2c" // Left page top margin
+tab
+type "2c" // Left page left margin
+tab
+type "2c" // Left page right  margin
+tab
+type "2c" // Left page bottom margin
+check "Facing pages" // Facing pages
+tab
+type "2c" // Right page top margin
+tab
+type "2c" // Right page left margin
+tab
+type "2c" // Right page right margin
+tab
+type "2c" // Right page bottom margin
+button "OK"
+Page Layout Tool
+menu item "Page Layout/Redefine Pages/Selected Pages*"
+menu drop-down "All Parts" near "Redefine:"
+radio button "Left and right pages"
+button "OK"
+button "OK"

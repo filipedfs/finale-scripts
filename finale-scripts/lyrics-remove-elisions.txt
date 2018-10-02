@@ -1,0 +1,12 @@
+/**
+ * Author: Filipe Fonseca
+ * Date: 23/07/2017
+ * Version: 1.0.0
+ * Info: replace elisions for the character '*'. Helpful before changing font type, for example.
+ */
+
+// Script Start
+
+search "I" [EngraverFontSet] replace "*" [PalatinoLinotype], lyrics
+
+// Script End

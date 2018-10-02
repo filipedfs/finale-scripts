@@ -1,0 +1,2 @@
+// CTRL+ALT+C
+menu item "Tools/Smart Shape/Crescendo"

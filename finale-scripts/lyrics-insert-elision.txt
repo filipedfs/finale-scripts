@@ -1,0 +1,19 @@
+/**
+ * Author: Filipe Fonseca
+ * Date: 23/07/2017
+ * Version: 1.0.0
+ * Info: when entering lyrics, put the character '*' where you want to be an elision. This script will change all '*' to an elision.
+ */
+
+// Script Start
+
+// Change lyrics font
+search [] replace [Palatino Linotype], lyrics
+
+// Insert elisions
+search "*" replace "I" [EngraverFontSet], lyrics
+
+// Other way to insert eliions
+//search "*" lyrics replace "I" Font [EngraverFontSet]
+
+// Script End

@@ -1,0 +1,91 @@
+/**
+ * Author: Filipe Fonseca
+ * Date: 23/07/2017
+ * Version: 1.0.0
+ */
+
+//start wizard
+menu item "File/New/Document With*"
+
+press enter // next page
+tab
+DOWN ARROW 2
+tab
+//adicionar soprano
+DOWN ARROW
+UP ARROW
+press alt "a"
+//adicionar alto
+DOWN ARROW
+press alt "a"//adicionar tenor
+DOWN ARROW
+press alt "a"//adicionar baixo
+DOWN ARROW 2
+press alt "a" //ir para próxima página
+enter
+type "Título" //título
+tab
+type "Subtítulo" // subtítulo
+tab
+type "Composer" //composer
+tab
+type "Arranger" //arranger
+tab
+type "Lyricist" //Lyricist
+tab
+type "© Copyright" //copyright
+tab 2
+press enter
+press enter
+// end wizard
+
+menu item "Document/Page Format/Score..."
+
+// Page Format
+press tab
+type "21c" // Page Width
+press tab
+type "29,7c" // Page Height
+
+type "0,6c" near "Staff Height"
+type "100" near "And Scale System"
+tab
+//Staff System Margins
+type "" // Top
+tab
+type "" // Left
+tab
+type "" // Right
+tab
+type "" // Bottom
+tab
+type "" // Distance between systems
+tab 2
+// First staff system margins
+type "" // Top
+tab
+type "" //Left
+tab
+type "" //Distance From Top
+tab
+// Left Page Margins
+type "1.5c" // Top
+tab
+type "1.5c" // Left
+tab
+type "1.5c" // Right
+tab
+type "1.5c" // Bottom
+button "ok"
+
+// update new layout
+apply page format
+button "ok"
+
+// 4 measures per staff
+menu item "Selection Tool"
+// press ctrl "a" // not needed
+press ctrl "m"
+type 4
+select radio "All measures"
+button "ok"

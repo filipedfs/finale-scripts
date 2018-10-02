@@ -1,0 +1,26 @@
+/**
+ * Author: Filipe Fonseca
+ * Date: 21/03/2018
+ * Version: 0.0.1
+ */
+ 
+menu item "Document/Edit Measure*"
+button "Delete"
+button "Add"
+check "Top Staff"
+check "Exclude Other Staves"
+uncheck "Bottom Staves"
+check "Show measure numbers at start of staff system"
+uncheck "Enclosure:"
+check "Hide first measure number in region"
+press alt "f"
+type "Arial"
+click "Regular"
+tab
+type 16 near "Size:"
+button "OK"
+
+uncheck "Show on every:"
+uncheck "Show on multimeasure rests"
+uncheck "Show measure ranges on multimeasure rests"
+button "OK"
