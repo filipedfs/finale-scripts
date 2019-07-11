@@ -1,0 +1,75 @@
+/**
+ * Author: Filipe Fonseca
+ * Date: 11/07/2019
+ * Version: 1.0.0
+ * Info: copy choir parts from a piano reduction to SATB staves.
+ */
+
+// Seleciona o Layer 1
+select layer 1
+
+// Mostrar apenas o layer ativo
+active layer only
+
+// Selecionar o primeiro pentagrama do piano
+select staff 5
+
+// Copia a 1a voz
+copy
+
+// Seleciona o pentagrama da soprano
+select staff 1
+
+// Cola a 1a voz
+paste
+
+// Seleciona o segundo pentagrama do piano
+select staff 6
+
+// Copia a 3a voz
+copy
+
+// Seleciona o pentagrama do tenor
+select staff 3
+
+// Cola a 3a voz
+paste
+
+// Muda para o layer 2
+select layer 2
+
+// Selecionar o primeiro pentagrama do piano
+select staff 5
+
+// Copia a 2a voz
+copy
+
+// Seleciona o pentagrama da contralto
+select staff 2
+
+// Cola a 1a voz
+paste
+
+// Move do layer 1 para o layer 2
+move layer 2 to 1
+
+// Seleciona o segundo pentagrama do piano
+select staff 6
+
+// Copia a 4a voz
+copy
+
+// Seleciona o pentagrama do baixo
+select staff 4
+
+// Cola a 3a voz
+paste
+
+// Move do layer 1 para o layer 2
+move layer 2 to 1
+
+// Muda para o layer 1
+select layer 1
+
+// Volta a visualização de todos os layers
+disable active layer only
